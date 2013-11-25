@@ -114,12 +114,18 @@ int main() {
 				scanf("%d",&m5);
 				total=m1+m2+m3+m4+m5;
 				avg=total/5;
+				if((avg>40.0)&&(avg<100)) {
+					result='P';
+				}
+				else {
+					result='F';				
+				}
 				/*The data is written into the file.I have maintained a structure so that
 				  it will be easy for us to read and search.To see how the structure looks 
 				  like see the student.txt file.
 				  CAUTION:NEVER EDIT THE FILE MANUALLY.IT WILL
 				  CAUSE DAMAGE TO THE SEARCHING ALGORITHM.YOU MAY GET UNEXPECTED RESULT */
-				fprintf(fp,"$>RollNo:%s\n    Name:%s\n    M1=%d\n    M2=%d\n    M3=%d\n    M4=%d\n    M5=%d\n    Total=%d\n    average=%.2f\n",rollno,name,m1,m2,m3,m4,m5,total,avg);
+				fprintf(fp,"$>RollNo:%s\n    Name:%s\n    M1=%d\n    M2=%d\n    M3=%d\n    M4=%d\n    M5=%d\n    Total=%d\n    average=%.2f\n    Result=%c",rollno,name,m1,m2,m3,m4,m5,total,avg,result);
 				/*we append each record with <End of Record> so that it will be easy 
 				  for searching*/
 				fprintf(fp,"\n<End of Record>");
