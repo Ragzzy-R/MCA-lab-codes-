@@ -44,7 +44,7 @@ int main() {
     cout<<"rectangle "<<p.Area(l,b);
     cout<<"Enter base and height "<<endl;
     cin>>bs>>h;
-    cout<<"Triangle "<<p.Area(bs,h)<<endls;
+    cout<<"Triangle "<<p.Area(bs,h)<<endl;
     return 0;
 
 }

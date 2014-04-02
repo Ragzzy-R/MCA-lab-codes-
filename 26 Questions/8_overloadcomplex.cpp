@@ -8,10 +8,11 @@ using namespace std;
 class Complex {
     public:
             int r,i;
-            Complex operator+(Complex a,Complex b) {
+            Complex operator+(Complex b) {
                 Complex c;
-                c.r=a.r+b.r;
-                c.i=a.i+b.i;
+                c.r=r+b.r;
+                c.i=i+b.i;
+                return c;
             }
 };
 
