@@ -19,7 +19,13 @@ P_17     = 17_find_in_array.cpp
 O_17     = 17_find_in_array
 
 P_18     = 18_array_add.cpp
-O_18     =18_array_add
+O_18     = 18_array_add
+
+P_21     = 21_single_public.cpp
+O_21     = 21_single_public
+
+P_22     = 22_single_private.cpp
+O_22     = 22_single_private
 
 binPath  = Linux_x64_bin/
 target:
@@ -30,5 +36,7 @@ target:
 	$(CPP)  $(debug) $(warnings) $(P_8) $(output) $(binPath)$(O_8)
 	$(CPP)  $(debug) $(warnings) $(P_17) $(output) $(binPath)$(O_17)
 	$(CPP)  $(debug) $(warnings) $(P_18) $(output) $(binPath)$(O_18)
-	
+	$(CPP)  $(debug) $(warnings) $(P_21) $(output) $(binPath)$(O_21)
+	$(CPP)  $(debug) $(warnings) $(P_22) $(output) $(binPath)$(O_22)
+
 	echo "All done :)"
