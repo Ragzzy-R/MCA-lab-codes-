@@ -1,0 +1,64 @@
+raghuram@HostNotFound:~/C/MCA-lab-codes-/data Structures$ ./a.out 
+Enter no of vertices9
+Enter the adjacencies  of node1
+Enter -1 to move to next node
+2
+9
+-1
+Enter the adjacencies  of node2
+Enter -1 to move to next node
+6
+1
+-1
+Enter the adjacencies  of node3
+Enter -1 to move to next node
+7
+8
+4
+-1
+Enter the adjacencies  of node4
+Enter -1 to move to next node
+3
+-1
+Enter the adjacencies  of node5
+Enter -1 to move to next node
+6
+9
+-1
+Enter the adjacencies  of node6
+Enter -1 to move to next node
+2
+7
+5
+9
+-1
+Enter the adjacencies  of node7
+Enter -1 to move to next node
+6
+8
+3
+-1
+Enter the adjacencies  of node8
+Enter -1 to move to next node
+3
+2
+-1
+Enter the adjacencies  of node9
+Enter -1 to move to next node
+1
+5
+6
+-1
+    1  2  3  4  5  6  7  8  9
+  ---------------------------
+1|  0  1  0  0  0  0  0  0  1
+2|  1  0  0  0  0  1  0  0  0
+3|  0  0  0  1  0  0  1  1  0
+4|  0  0  1  0  0  0  0  0  0
+5|  0  0  0  0  0  1  0  0  1
+6|  0  1  0  0  1  0  1  0  1
+7|  0  0  1  0  0  1  0  1  0
+8|  0  1  1  0  0  0  0  0  0
+9|  1  0  0  0  1  1  0  0  0
+196783452
+
